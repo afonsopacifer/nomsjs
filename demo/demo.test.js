@@ -1,13 +1,11 @@
-const noms = require('noms')();
+suite('All demo tests', () => {
 
-noms.suite('All demo tests', () => {
-
-  noms.test('Should return a correct number', () => {
-    return noms.assert(22, 22);
+  test('Should return a correct number', () => {
+    return assert(22, 22);
   });
 
-  noms.test('Should return a correct number', () => {
-    return noms.assert(22, 23);
+  test('Should return a correct number', () => {
+    return assert(22, 23);
   });
 
 })

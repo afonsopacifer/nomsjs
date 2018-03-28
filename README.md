@@ -22,7 +22,7 @@ $ yarn add nomsjs
 
 ## Command Line Usage
 
-*Create you test file*
+*Create your test file*
 
 ```js
 // demo.test.js
@@ -41,7 +41,7 @@ suite('All demo tests', () => {
 })
 ```
 
-*Run you unit tests*
+*Run your unit tests*
 
 ```sh
 $ noms demo.test.js
