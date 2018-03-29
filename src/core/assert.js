@@ -1,9 +1,3 @@
-const assert = (expected, value) => {
-  if (expected === value) {
-    return true;
-  } else {
-    return false;
-  }
-};
+const assert = (expected, value) => expected === value ? true : false;
 
 module.exports = assert;

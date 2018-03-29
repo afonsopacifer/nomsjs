@@ -1,7 +1,10 @@
-const colors = require('../helpers/consoleColors')();
+const chalk = require('chalk');
 
 const suite = (description, cb) => {
-  console.log(colors.blue, `\n${description.toUpperCase()}\n`);
+  console.log(
+    '\n', chalk.blue(`${description.toUpperCase()}`), '\n'
+  );
+
   return cb();
 }
 

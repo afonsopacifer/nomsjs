@@ -16,6 +16,9 @@
   },
   "license": "MIT",
   "dependencies": {
+    "chalk": "^2.3.2",
+    "clear": "^0.1.0",
+    "figlet": "^1.2.0",
     "node-emoji": "^1.8.1"
   }
 }
