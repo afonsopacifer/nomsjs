@@ -1,3 +1,5 @@
+const { suite, test, assert } = require('../src/noms.js');
+
 suite('All demo tests', () => {
 
   test('Should return a correct number', () => {
@@ -8,4 +10,4 @@ suite('All demo tests', () => {
     return assert(22, 23);
   });
 
-})
+});

@@ -6,78 +6,45 @@
 
 Verify if you have [node](http://nodejs.org/) and [npm](https://www.npmjs.org/) installed.
 
-### Command Line
-
-```sh
-$ yarn global add nomsjs
-```
-
 ### Module
 
 ```sh
-$ yarn add nomsjs
+$ yarn add nomsjs -D
 ```
 
 <hr>
 
-## Command Line Usage
+## Usage
 
 *Create your test file*
 
 ```js
 // demo.test.js
 
+const { suite, test, assert } = require('../src/noms.js');
+
 suite('All demo tests', () => {
 
   test('Should return a correct number', () => {
-    return assert(22, 22);
+    return assert(22, 22); // Passed
   });
-
 
   test('Should return a correct number', () => {
-    return assert(22, 23);
+    return assert(22, 23); // Failed
   });
 
-})
+});
 ```
 
 *Run your unit tests*
 
 ```sh
-$ noms demo.test.js
+$ node demo.test.js
 ```
 
 *Result:*
 
 ![Test Results](demo/cli-demo.gif)
-
-## Module Usage
-
-*Create you test file*
-
-```js
-// demo.test.js
-
-const noms = require('noms')();
-
-noms.suite('All demo tests', () => {
-
-  noms.test('Should return a correct number', () => {
-    return noms.assert(22, 22);
-  });
-
-  noms.test('Should return a correct number', () => {
-    return noms.assert(22, 23);
-  });
-
-})
-```
-
-*Run you unit tests*
-
-```sh
-$ node demo.test.js
-```
 
 ## Versioning
 
