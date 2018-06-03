@@ -4,6 +4,7 @@ import emoji from 'node-emoji';
 import suite from './core/suite';
 import test from './core/test';
 import assert from './core/assert';
+import normalizeString from './core/normalizeString';
 
 /**
  * Add N.O.M.s description and execute all suites tests.
@@ -22,6 +23,7 @@ const noms = () => {
     suite,
     test,
     assert,
+    normalizeString,
   }
 
 };
