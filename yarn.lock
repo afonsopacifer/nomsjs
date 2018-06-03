@@ -34,6 +34,10 @@ escape-string-regexp@^1.0.5:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
 
+esm@^3.0.45:
+  version "3.0.45"
+  resolved "https://registry.yarnpkg.com/esm/-/esm-3.0.45.tgz#7034e5fdb480bd670f36eb2fece845efd1f8bb13"
+
 figlet@^1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/figlet/-/figlet-1.2.0.tgz#6c46537378fab649146b5a6143dda019b430b410"

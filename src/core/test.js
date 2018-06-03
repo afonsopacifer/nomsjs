@@ -1,5 +1,5 @@
-const emoji = require('node-emoji');
-const chalk = require('chalk');
+import emoji from 'node-emoji';
+import chalk from 'chalk';
 
 /**
  * Add test description and execute the test logic.
@@ -33,4 +33,4 @@ const test = (description, cb) => {
 
 };
 
-module.exports = test;
+export default test;

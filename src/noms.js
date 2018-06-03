@@ -1,9 +1,9 @@
-const chalk = require('chalk');
-const figlet = require('figlet');
-const emoji = require('node-emoji');
-const suite = require('./core/suite');
-const test = require('./core/test');
-const assert = require('./core/assert');
+import chalk from 'chalk';
+import figlet from 'figlet';
+import emoji from 'node-emoji';
+import suite from './core/suite';
+import test from './core/test';
+import assert from './core/assert';
 
 /**
  * Add N.O.M.s description and execute all suites tests.

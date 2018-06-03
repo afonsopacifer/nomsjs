@@ -12,4 +12,4 @@ const assert = (result, expected) => {
 	return result === expected ? true : false;
 }
 
-module.exports = assert;
+export default assert;

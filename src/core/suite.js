@@ -1,4 +1,4 @@
-const chalk = require('chalk');
+import chalk from 'chalk';
 
 /**
  * Add suite description and execute all unit tests.
@@ -24,4 +24,4 @@ const suite = (description, test) => {
   return test();
 }
 
-module.exports = suite;
+export default suite;
