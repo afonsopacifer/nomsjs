@@ -5,6 +5,7 @@ import suite from './core/suite';
 import test from './core/test';
 import assert from './core/assert';
 import normalizeString from './core/normalizeString';
+import mockWindow from './core/mockWindow';
 
 /**
  * Add N.O.M.s description and execute all suites tests.
@@ -24,6 +25,7 @@ const noms = () => {
     test,
     assert,
     normalizeString,
+    mockWindow,
   }
 
 };
