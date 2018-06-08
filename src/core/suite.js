@@ -20,7 +20,7 @@ import chalk from 'chalk';
  */
 
 const suite = (description, test) => {
-  console.log('\n', chalk.blue(`${description.toUpperCase()}`), '\n');
+  console.log('\n', chalk.blue(`${description}`), '\n');
   return test();
 }
 

@@ -1,6 +1,6 @@
 /**
  * Normalize (remove white spaces and break lines) strings.
- * @module core/normalizeString
+ * @module core/helpers/normalizeString
  * 
  * @param {string} string - The string for normalize.
  *
