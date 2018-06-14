@@ -2,6 +2,8 @@
 
 > Universal/isomorphic javascript unit tests for witches.
 
+[See all Docs here](https://github.com/afonsopacifer/nomsjs/blob/master/docs/README.md)
+
 ## How to install
 
 Verify if you have [node](http://nodejs.org/) and [npm](https://www.npmjs.org/) installed.
@@ -45,6 +47,8 @@ $ node demo.test.js
 *Result:*
 
 ![Test Results](demo/cli-demo.gif)
+
+[See all Docs here](https://github.com/afonsopacifer/nomsjs/blob/master/docs/README.md)
 
 ## Versioning
 

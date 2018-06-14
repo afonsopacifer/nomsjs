@@ -1,0 +1,23 @@
+# N.O.M.s documentation
+
+- Whats is?
+- Universal / isomorphic javascript?
+- How to install
+	- Browser environment
+	- Node.js environment
+- How to use
+	- Write your first test
+	- Assert your test
+	- Organize with suites
+- API reference
+	- Basic
+		- test()
+		- suite()
+		- assert
+			- equal()
+			- isTrue()
+			- isFalse()
+		- helpers
+			- normalizeString()
+		- Mocks
+			- fakeWindow
