@@ -1,4 +1,4 @@
-import nAssert from '../src/core/asserts/assert.js';
+import nAssert from '../../src/core/asserts/assert.js';
 import assert from 'assert';
 
 describe('assert', () => {

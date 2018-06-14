@@ -1,6 +1,6 @@
 # N.O.M.s
 
-> Unit tests for witches.
+> Universal/isomorphic javascript unit tests for witches.
 
 ## How to install
 
@@ -21,7 +21,7 @@ $ yarn add nomsjs -D
 ```js
 // demo.test.js
 
-const { suite, test, assert } = require('../src/noms.js');
+const { suite, test, assert } = require('nomsjs');
 
 suite('All demo tests', () => {
 

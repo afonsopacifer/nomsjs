@@ -1,4 +1,4 @@
-import fakeWindow from '../src/core/mocks/fakeWindow.js';
+import fakeWindow from '../../src/core/mocks/fakeWindow.js';
 import assert from 'assert';
 
 describe('fakeWindow()', () => {

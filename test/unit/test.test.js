@@ -1,4 +1,4 @@
-import test from '../src/core/test.js';
+import test from '../../src/core/test.js';
 import assert from 'assert';
 
 describe('test()', () => {

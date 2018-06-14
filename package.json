@@ -1,10 +1,12 @@
 {
   "name": "nomsjs",
   "version": "1.3.0",
-  "description": "Unit tests for witches",
+  "description": "Universal/isomorphic javascript unit tests for witches",
   "main": "src/index.js",
   "scripts": {
-    "test": "mocha --compilers js:babel-core/register test/*"
+    "test": "mocha --compilers js:babel-core/register test/*",
+    "test:unit": "mocha --compilers js:babel-core/register test/unit/*",
+    "test:integration": "mocha --compilers js:babel-core/register test/integration/*"
   },
   "author": {
     "name": "afonsopacifer",

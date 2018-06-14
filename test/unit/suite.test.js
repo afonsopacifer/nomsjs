@@ -1,4 +1,4 @@
-import suite from '../src/core/suite.js';
+import suite from '../../src/core/suite.js';
 import assert from 'assert';
 
 describe('suite()', () => {

@@ -1,4 +1,4 @@
-import isFalse from '../src/core/asserts/equal/isFalse.js';
+import isFalse from '../../src/core/asserts/equal/isFalse.js';
 import assert from 'assert';
 
 describe('isFalse()', () => {

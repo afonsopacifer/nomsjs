@@ -1,4 +1,4 @@
-import equal from '../src/core/asserts/equal/equal.js';
+import equal from '../../src/core/asserts/equal/equal.js';
 import assert from 'assert';
 
 describe('equal()', () => {

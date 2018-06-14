@@ -1,4 +1,4 @@
-import normalizeString from '../src/core/helpers/normalizeString.js';
+import normalizeString from '../../src/core/helpers/normalizeString.js';
 import assert from 'assert';
 
 describe('normalizeString()', () => {
