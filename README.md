@@ -2,7 +2,15 @@
 
 > Universal/isomorphic javascript unit tests for witches.
 
-[See all Docs here](https://github.com/afonsopacifer/nomsjs/blob/master/docs/README.md)
+## Table of contents
+
+- [How to install](#how-to-install)
+- [Usage](#usage)
+- [Docs and API Reference](https://github.com/afonsopacifer/nomsjs/blob/master/docs/README.md)
+- [Versioning](#versioning)
+- [Contributing](#contributing)
+- [History](#history)
+- [License](#license)
 
 ## How to install
 
@@ -48,7 +56,9 @@ $ node demo.test.js
 
 ![Test Results](demo/cli-demo.gif)
 
-[See all Docs here](https://github.com/afonsopacifer/nomsjs/blob/master/docs/README.md)
+## Docs
+
+[See all Docs and API reference here](https://github.com/afonsopacifer/nomsjs/blob/master/docs/README.md)
 
 ## Versioning
 

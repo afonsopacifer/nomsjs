@@ -1,23 +1,14 @@
 # N.O.M.s documentation
 
-- Whats is?
-- Universal / isomorphic javascript?
-- How to install
-	- Browser environment
-	- Node.js environment
-- How to use
-	- Write your first test
-	- Assert your test
-	- Organize with suites
 - API reference
 	- Basic
-		- test()
-		- suite()
-		- assert
-			- equal()
-			- isTrue()
-			- isFalse()
-		- helpers
-			- normalizeString()
-		- Mocks
-			- fakeWindow
+		- [test()](api-reference/basic/test.md)
+		- [suite()](api-reference/basic/suite.md)
+	- assert
+		- [equal()](api-reference/assert/equal.md)
+		- [isTrue()](api-reference/assert/isTrue.md)
+		- [isFalse()](api-reference/assert/isFalse.md)
+	- helpers
+		- [normalizeString()](api-reference/helpers/normalizeString.md)
+	- Mocks
+		- [fakeWindow](api-reference/mocks/fakeWindow.md)
