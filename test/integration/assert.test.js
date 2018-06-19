@@ -43,4 +43,16 @@ describe('assert', () => {
 	
 	});
 
+	describe('assert.arrayEqual()', () => {
+
+		it('Should return the correct assert result with two arrays', () => {
+			assert.equal(true, nAssert.arrayEqual([1,2,3], [1,2,3]));
+		});
+	
+		it('Should return the incorrect assert result with two arrays', () => {
+			assert.equal(false, nAssert.arrayEqual([1,2,3], [1,2,4]));
+		});
+	
+	});
+
 });
