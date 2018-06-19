@@ -52,7 +52,18 @@ describe('assert', () => {
 		it('Should return the incorrect assert result with two arrays', () => {
 			assert.equal(false, nAssert.arrayEqual([1,2,3], [1,2,4]));
 		});
+
+		it('Should return the correct assert result with two different objects (with different values)', () => {
+
+			const object1 = {a: 1, b: 2, c: 3, d: 3};
+			const object2 = {a: 1, b: 5, c: 3, d: 3};
 	
+			const result = nAssert.objectEqual(object1, object2); // false
+	
+			nAssert.equal(false, result);
+	
+		});
+
 	});
 
 });

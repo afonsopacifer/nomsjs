@@ -2,8 +2,8 @@
  * Assertion between two arrays.
  * @module core/asserts/equal/arrayEqual
  * 
- * @param expected - The expected array for assertion.
- * @param result - The result array for assertion.
+ * @param {array} expected - The expected array for assertion.
+ * @param {array} result - The result array for assertion.
  *
  * @returns {Boolean} Assert results.
  */

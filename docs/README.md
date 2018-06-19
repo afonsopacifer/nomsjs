@@ -9,6 +9,7 @@
 		- [isTrue()](api-reference/assert/isTrue.md)
 		- [isFalse()](api-reference/assert/isFalse.md)
 		- [arrayEqual()](api-reference/assert/arrayEqual.md)
+		- [objectEqual()](api-reference/assert/objectEqual.md)
 	- helpers
 		- [normalizeString()](api-reference/helpers/normalizeString.md)
 	- Mocks

@@ -2,6 +2,7 @@ import equal from './equal/equal';
 import isFalse from './equal/isFalse';
 import isTrue from './equal/isTrue';
 import arrayEqual from './equal/arrayEqual';
+import objectEqual from './equal/objectEqual';
 
 /**
  * Assertions.
@@ -16,6 +17,7 @@ const assert = () => {
 		isFalse,
 		isTrue,
 		arrayEqual,
+		objectEqual,
 	}
 }
 
