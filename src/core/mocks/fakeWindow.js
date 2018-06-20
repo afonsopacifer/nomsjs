@@ -28,6 +28,9 @@ const fakeWindow = () => {
           nodeName: elementName.toUpperCase(),
           classList: { add: newClass => classList.push(newClass), },
           className: classList,
+          style: {
+            cssText: '',
+          },
         }
 
       }

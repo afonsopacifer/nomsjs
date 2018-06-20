@@ -12,6 +12,7 @@ A fake DOM (mock window object).
   - [element.nodeName](#element.nodeName)
   - [element.classList.add](#element.classList.add)
   - [element.className](#element.className)
+  - [element.style.cssText](#element.style.cssText)
 - [Real example](#Real-example)
 
 ## Syntax
@@ -48,6 +49,12 @@ element.classList.add('fancy') // Add new class
 
 ```js
 element.className // Return an Array with all class
+```
+
+#### element.style.cssText
+
+```js
+element.style.cssText // Return the correct CSS inline styles text
 ```
 
 ## Real example

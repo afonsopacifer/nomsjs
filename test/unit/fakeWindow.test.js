@@ -34,6 +34,14 @@ describe('fakeWindow()', () => {
 			assert.equal('light', p.className[2]);
 		});
 
+		it('Should add a inline style and retrieval with style.cssText', () => {
+			const div = fakeWindow.document.createElement('div');
+
+			div.style.cssText = 'width: 200px;';
+
+			assert.equal('width: 200px;', div.style.cssText);
+		});
+
 	});
 
 });
