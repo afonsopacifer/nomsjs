@@ -33,7 +33,7 @@ const { suite, test, assert } = require('nomsjs');
 suite('Suite description', () => {
 
   test('Test 1 description', () => {
-    assert.isFalse(null); // true
+    return assert.isFalse(null); // true
   });
 
 });

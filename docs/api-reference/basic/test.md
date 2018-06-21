@@ -35,7 +35,7 @@ test('Test description', () => {
 
   const sum = (x, y) => x + y;
 
-  assert.equal(42, sum(40, 1));
+  return assert.equal(42, sum(40, 1));
 
 });
 ```

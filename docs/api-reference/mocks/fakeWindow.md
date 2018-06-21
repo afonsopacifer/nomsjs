@@ -68,7 +68,7 @@ const { test, assert, fakeWindow } = require('nomsjs');
       return context.document.createElement(name);
     }
 
-    assert.equal('P', createElement('p', fakeWindow)); // true
+    return assert.equal('P', createElement('p', fakeWindow)); // true
 
   });
 ```

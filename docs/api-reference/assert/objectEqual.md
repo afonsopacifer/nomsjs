@@ -37,7 +37,7 @@ suite('Suite description', () => {
 
     const obj = {a: 1, b: 2};
 
-    assert.objectEqual({a: 1, b: 2}, obj); // True
+    return assert.objectEqual({a: 1, b: 2}, obj); // True
 
   });
 

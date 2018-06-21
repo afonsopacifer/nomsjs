@@ -34,11 +34,11 @@ const { suite, test, assert } = require('nomsjs');
 suite('Suite description', () => {
 
   test('Test 1 description', () => {
-    assert.equal(42, 42);
+    return assert.equal(42, 42);
   });
 
   test('Test 2 description', () => {
-    assert.equal(42, 40);
+    return assert.equal(42, 40);
   });
 
 });

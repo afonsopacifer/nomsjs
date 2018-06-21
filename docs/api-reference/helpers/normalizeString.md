@@ -34,7 +34,7 @@ suite('Suite description', () => {
 
     const cleanString = normalizeString('demo tes t');
 
-    assert.equal('demotest', cleanString); // true
+    return assert.equal('demotest', cleanString); // true
 
   });
 

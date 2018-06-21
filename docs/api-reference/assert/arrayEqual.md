@@ -37,7 +37,7 @@ suite('Suite description', () => {
 
 		const arr = ['a', 'b', 'd'];
 
-		assert.arrayEqual(['a', 'b', 'c'], arr);
+		return assert.arrayEqual(['a', 'b', 'c'], arr);
 
   });
 
