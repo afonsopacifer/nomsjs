@@ -1,6 +1,6 @@
 {
   "name": "nomsjs",
-  "version": "1.3.0",
+  "version": "2.0.0",
   "description": "Universal/isomorphic javascript unit tests for witches",
   "main": "src/index.js",
   "scripts": {
