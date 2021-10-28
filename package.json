@@ -6,7 +6,8 @@
   "scripts": {
     "test": "mocha --compilers js:babel-core/register test/*",
     "test:unit": "mocha --compilers js:babel-core/register test/unit/*",
-    "test:integration": "mocha --compilers js:babel-core/register test/integration/*"
+    "test:integration": "mocha --compilers js:babel-core/register test/integration/*",
+    "lint" : "node_modules/.bin/eslint ."
   },
   "author": {
     "name": "afonsopacifer",
