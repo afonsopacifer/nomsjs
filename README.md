@@ -56,6 +56,13 @@ $ node demo.test.js
 
 ![Test Results](demo/cli-demo.gif)
 
+### All automatic tasks
+
+- `npm test` - Run all tests.
+- `npm run test:unit` - Run unit-tests only.
+- `npm run test:integration` - Run integration-tests only.
+- `npm run lint` - Run ESlint validations for code quality.
+
 ## Docs
 
 [See all Docs and API reference here](https://github.com/afonsopacifer/nomsjs/blob/master/docs/README.md)
