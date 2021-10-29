@@ -7,7 +7,7 @@
     "test": "mocha --compilers js:babel-core/register test/*",
     "test:unit": "mocha --compilers js:babel-core/register test/unit/*",
     "test:integration": "mocha --compilers js:babel-core/register test/integration/*",
-    "lint" : "node_modules/.bin/eslint ."
+    "lint": "node_modules/.bin/eslint ."
   },
   "author": {
     "name": "afonsopacifer",
@@ -22,6 +22,8 @@
     "node-emoji": "^1.8.1"
   },
   "devDependencies": {
+    "@commitlint/cli": "^13.2.1",
+    "@commitlint/config-conventional": "^13.2.0",
     "babel-core": "^6.26.3",
     "babel-preset-env": "^1.7.0",
     "eslint": "^8.1.0"
